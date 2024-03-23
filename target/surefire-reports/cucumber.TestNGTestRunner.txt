@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.912 s <<< FAILURE! - in cucumber.TestNGTestRunner
+cucumber.TestNGTestRunner.runScenario["Positive Test of Submitting the order", "Purchase the order from Ecommerce Website"](1)  Time elapsed: 8.296 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at rupsapanda.stepDefinitions.StepDefinitionImp.checkout_submit_order(StepDefinitionImp.java:52)
+	at ✽.Checkout ZARA COAT 3 and submit the order(file:///C:/Users/panda/eclipse-workspace/SeleniumFrameworkDesign/src/test/java/cucumber/SubmitOrder.feature:14)
+
